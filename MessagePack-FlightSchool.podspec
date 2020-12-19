@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name = 'MessagePack-FlightSchool'
     s.module_name  = 'MessagePack'
-    s.version      = '1.2.3'
+    s.version      = '1.2.4'
     s.summary      = 'A MessagePack encoder and decoder for Codable types.'
 
     s.description  = <<-DESC
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
     s.social_media_url   = 'https://twitter.com/mattt'
 
-    s.ios.deployment_target = '8.0'
+    s.ios.deployment_target = '9.0'
     s.osx.deployment_target = '10.10'
     s.watchos.deployment_target = '2.0'
     s.tvos.deployment_target = '9.0'
@@ -27,6 +27,5 @@ Pod::Spec.new do |s|
 
     s.source_files = 'Sources/**/*.swift'
 
-    s.swift_version = '4.2'
-    s.static_framework = true
+    s.swift_versions = '5.3'
 end
